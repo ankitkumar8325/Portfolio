@@ -1,0 +1,280 @@
+*{
+	box-sizing: border-box;
+	font-size: 19px;
+
+}
+body{
+	background-color: #f3f3f3;
+}
+a{
+	text-decoration: none;
+}
+header a{
+	color: white;
+}
+header{
+	text-decoration: none;
+	background-color: #06BD7D;
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
+.brand{
+	margin-left: 10px;
+}
+ ul#menu{
+	list-style-type: none;
+	margin: 10px;
+	padding: 0;
+	overflow: hidden;
+	display: inline;
+}
+ul#menu li{
+	display: inline-block;
+	padding: 10px 15px;
+	border-radius: 2px;
+	float: right;
+	transition: 0.5s;
+}
+ul#menu li:hover{
+	background-color: #06CD7D;
+}
+header::after{
+	content: "";
+	float:none;
+	display: table;
+}
+.intro{
+	margin: 1px;
+	display: block;
+	position: relative;
+	padding-bottom: 10px;
+	background-color: #1482D1;
+	margin-bottom: 1em;
+	box-shadow: 1px 8px 8px grey;
+}
+.rahul{
+	text-align: center;
+	font-size: 2.5em;
+	color: white;
+	text-shadow: 2px 2px #06CDff;
+	font-family: 'Exo 2', sans-serif;
+}
+.image{
+	padding: 10px;
+	background-color: white;
+	border-radius: 500px;
+	border: 4px solid green;
+	width: 30vh;
+	margin: auto;
+	margin-bottom: 10px;
+	transition: 5s;
+
+}
+.image:hover{
+  -webkit-transform: rotateY(360deg); /* Safari */
+  transform: rotateY(360deg);
+}
+.topimage{
+	width: 100%;
+	height: auto;
+	margin: auto;
+	border: 2px solid green;
+	border-radius: 500px; 
+}
+.detail{
+	color: white;
+	padding: 20px;
+	text-align: center;
+	font-size: 1.2em;
+}
+.link{
+	margin-top: 10px;
+	min-width: 80%;
+	width: 200px;
+	padding: 10px;
+	background-color: #fefefe;
+	border-radius: 20px;
+	text-align: center;
+	font-size: 1.2em;
+	margin:auto;
+	margin-bottom: 10px;
+	display: block;
+	border: 2px solid #0e0e00;
+	transition: 0.3s;
+}
+.link:hover{
+	background-color: #06BD7D;
+	color: white;
+}
+.heading{
+	font-size: 3em;
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.course{
+	background-color: white;
+	width: 30%;
+	padding-bottom: 1em;
+	display: inline-block;
+	margin: 10px;
+	margin-bottom: 40px;
+
+	box-shadow: 1px 8px 8px grey;
+
+	transition: 1s;
+}
+.course:hover{
+	border: 4px solid #06BD7D;
+	box-shadow: 0 0 0 grey;
+}
+.coursehead{
+	padding: 10px;
+	text-align: center;
+}
+.coursepic{
+	margin-bottom: 10px;
+	border-radius: 40px;
+}
+.couresimage{;
+	width: 70%;
+	height: auto;
+	margin: auto;
+	display: block;
+	padding: 10px;
+	border: 2px solid #1482D1;
+	border-radius: 4px;
+}
+
+.dev{
+	position: relative;
+	background-color: #ffbf8c;
+	text-align: center;
+	padding: 0.5px;
+}
+.fourwall{
+	text-decoration: underline;
+	font-weight: bold;
+	color: green;
+	position: relative;
+	cursor: pointer;
+	display: inline-block;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.high{
+	font-weight: bold;
+}
+.popup{
+	color: #1482D1;
+display: none;
+position: absolute;
+background-color: white;
+border-radius: 6px;
+z-index: 1;
+width: 400px;
+bottom: 20px;
+left: 50px;
+margin-left: -210px;
+padding: 10px;
+box-shadow: 1px 5px 6px #2e2e3e;
+}
+.popup p{
+	float: left;
+}
+.popup img{
+	margin: 5px;
+	max-width: 20vh;
+	float: right;
+}
+.fourwall:hover .popup{
+	display: block;
+}
+
+footer{
+	width: 100%;
+	background-color: #2e2e2e;
+	padding: 20px 15px 5px 15px;
+	box-sizing: border-box;
+	color: white;
+}
+div.col{
+	float: left;
+	width: 25%;
+	display: inline-block;
+}
+.footertext{
+	color: white;
+	font-size: 2em;
+	text-align: center;
+	font-family: 'Josefin Sans', sans-serif;
+	margin-bottom: 10px; 
+}
+.icon{
+	display: inline;
+	margin: auto;
+}
+.icon img{
+	display: block;
+	margin: auto;
+	margin-bottom: 20px;
+}
+.clearfix{
+	clear: both;
+}
+.rights{
+	border-top: 5px solid white;
+	padding: 2px;
+	margin-top: 15px;
+	color: #aaaaaa;
+	font-size: 0.8em;
+}
+
+@media screen and (max-width: 1000px) {
+
+  .course{
+  	width: 45%;
+  	box-sizing: border-box;
+  }
+}
+@media screen and (max-width: 800px) {
+
+  .course{
+  	width: 80%;
+  	margin: auto;
+  	display: block;
+  	margin-bottom: 20px;
+  }
+}
+
+
+div.offer {
+  width: 80%;
+  height: auto;
+  vertical-align: center;
+  background-color: red;
+  color:white;
+  text-align: center;
+  padding: 20px;
+  display: block;
+  margin: auto;
+  border-radius: 20px;
+  -webkit-animation-name: popOffer; /* Safari 4.0 - 8.0 */
+  -webkit-animation-duration: 2.5s; /* Safari 4.0 - 8.0 */
+  -webkit-animation-iteration-count: infinite; /* Safari 4.0 - 8.0 */
+  animation-name: popOffer;
+  animation-duration: 2.5s;
+  animation-iteration-count: infinite;
+}
+
+/* Safari 4.0 - 8.0 */
+@-webkit-keyframes popOffer {
+  0%   {width:80%;height: 90%;font-size: 1.2em;}
+  50%   {width:90%;height:110%;font-size: 1.5em;}
+  100%   {width:80%;height: 90%;font-size: 1.2em;}
+}
+
+/* Standard syntax */
+@keyframes popOffer {
+  0%   {width:90%;height: 90%;font-size: 1.2em;}
+  50%   {width:100%;height:110%;font-size: 1.5em;}
+  100%   {width:90%;height: 90%;font-size: 1.2em;}
+}

@@ -1,0 +1,96 @@
+div.listBox ul{
+	list-style-type: none;
+}
+.item{
+background-color: white;
+width: 80vw;
+padding: 5px;
+display: block;
+margin:auto;
+margin-bottom: 20px;
+box-shadow: 1px 3px 4px black;
+}
+
+.listhead{
+	text-align: center;
+	padding: 5px;
+}
+.demo{
+	padding-top: 20px;
+	border-top: 2px solid gray;
+}
+.listBox li:hover{
+	background-color: #f2f2f2;
+}
+.blog{
+	background-color: rgba(70,70,70,1);
+	padding:10px;
+	margin:5px; 
+	display: block;
+}
+.close{
+	float: right;
+	margin-top: 20px;
+	margin-right: 20px;
+	cursor: pointer;
+	font-size: 3em;
+	color: red;
+	font-weight: bold;
+}
+.pager{
+	background-color: white;
+	width: 100%;
+	display: block;
+	margin: auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+	border: 2px solid black;
+	text-align: center;
+	color: #5e5e5e;
+}
+.heading{
+	font-size: 2em;
+}
+.ellipses{
+	font-size: 4em;
+	font-weight: bold;
+	margin-top: -10px;
+	margin-bottom: -10px;
+
+}
+.sign{
+	width: 40%;
+	display: block;
+	float: right;
+}
+.signlist{
+	width: 24%;
+	margin-bottom: 1em;
+
+}
+.pager::after{
+	content: "";
+	clear: both;
+	display: table;
+
+}
+.rahul{
+	color: #2e2e2e;
+}
+
+
+@media screen and (min-width: 800px) {
+	.pager{
+	width: 30%;
+	padding: 20px;
+}
+div.listBox ul li{
+	display: inline-block;
+	width: 27vw;
+	padding: 20px 15px;
+	margin: 20px;
+	box-sizing: border-box;
+
+}
+ 
+}
